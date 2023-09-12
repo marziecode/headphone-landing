@@ -1,0 +1,252 @@
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url(./assets/fonts/LeagueSpartan-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(./assets/fonts/RedHatDisplay-Medium.ttf);
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 17%, rgba(16, 27, 48, 1) 92%);
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #ffffff7d;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-text {
+    list-style-type: none;
+    margin-left: 50px;
+    font-family: 'RedHatDisplay';
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav-text:hover {
+    cursor: pointer;
+    color: #ffe100;
+    transition: all 0.5s;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    width: 50%;
+}
+
+.nav-login {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.sign-up-btn {
+    font-family: 'RedHatDisplay';
+    background-color: #66BAE3;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.sign-up-btn:hover {
+    background: rgb(249, 15, 204);
+    background: linear-gradient(90deg, rgba(249, 15, 204, 1) 14%, rgba(30, 246, 251, 1) 100%);
+    transition: all 3s;
+    cursor: pointer;
+}
+
+.main-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.img-main {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* background-color: #ffe100; */
+    animation-name: head-1;
+}
+
+.right-main-item {
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-item {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text-main {
+    color: #fff;
+    font-family: 'LeagueSpartan';
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.p-main {
+    color: #fff;
+    font-family: 'RedHatDisplay';
+    font-size: 20px;
+}
+
+.img-bottom {
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px 0px 50px;
+}
+
+.item-head-img {
+    width: 350px;
+}
+
+.headphone-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.headphone-one {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+}
+
+.one-item {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one-img-container{
+    position: relative;
+}
+.one-img {
+    width: 200px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: -180px;
+}
+
+.one-text-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.one-text{
+    font-family: 'RedHatDisplay';
+    color: #fff;
+    font-size: 14px;
+}
+.headphone-two {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+
+}
+
+.tow-item {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.tow-img-container{
+    position: relative;
+}
+.tow-img {
+    width: 200px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: -120px;
+}
+.tow-text-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.tow-text {
+    font-family: 'RedHatDisplay';
+    color: #fff;
+    font-size: 14px;
+}
+@keyframes head-1 {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:wipe:down"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-down both;
+  }
